@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Can You Be Sovereign on Software You Don't Control?</title>
+<title>Can You Be Sovereign on Software You Don't Run?</title>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -36,7 +36,6 @@
 
   ::selection { background: var(--accent-soft); }
 
-  /* ── HERO ── */
   .hero {
     min-height: 100vh;
     background: var(--hero-bg);
@@ -142,7 +141,6 @@
     50% { opacity: 1; }
   }
 
-  /* ── SECTIONS ── */
   section { padding: 6rem 2rem; }
 
   .narrow { max-width: 640px; margin: 0 auto; }
@@ -168,19 +166,6 @@
 
   p { margin-bottom: 1.25rem; }
 
-  .big-comma {
-    font-family: var(--serif);
-    font-size: 5rem;
-    line-height: 0;
-    color: var(--accent);
-    opacity: 0.15;
-    position: relative;
-    top: 1.5rem;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-
-  /* ── STAT CARDS ── */
   .stat-strip {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -232,7 +217,6 @@
     margin-top: 6px;
   }
 
-  /* ── CLOUD CHART (donut) ── */
   .donut-row {
     display: flex;
     align-items: center;
@@ -262,7 +246,6 @@
     margin-right: 4px;
   }
 
-  /* ── CALLOUT BOX ── */
   .callout {
     background: var(--warm-soft);
     border-left: 3px solid var(--warm);
@@ -283,7 +266,6 @@
     margin-bottom: 0.5rem;
   }
 
-  /* ── SPLIT: AUSTRIA / BULGARIA ── */
   .split-section {
     padding: 6rem 2rem;
     background: var(--white);
@@ -419,7 +401,6 @@
     line-height: 1.6;
   }
 
-  /* ── TIMELINE ── */
   .tl-section {
     padding: 6rem 2rem;
     background: var(--bg);
@@ -524,7 +505,6 @@
   .tl-tag.action { background: #D9EDDB; color: #2D6E45; }
   .tl-tag.blocked { background: #F5E0DC; color: #8B3A2F; }
 
-  /* ── PULLQUOTE ── */
   .pullquote-section {
     padding: 4rem 2rem;
     background: var(--accent);
@@ -551,7 +531,6 @@
     margin-top: 1.5rem;
   }
 
-  /* ── CLOSING ── */
   .closing {
     padding: 6rem 2rem;
     background: var(--white);
@@ -605,7 +584,6 @@
 
   .closing-sidebar .cs-label { color: var(--text); font-weight: 500; }
 
-  /* ── FOOTER ── */
   footer {
     padding: 3rem 2rem;
     border-top: 1px solid var(--border);
@@ -631,21 +609,11 @@
     line-height: 1.8;
   }
 
-  .footer-note {
-    font-family: var(--sans);
-    font-size: 11px;
-    color: #aaa;
-    margin-top: 1.5rem;
-  }
-
-  /* ── UTILS ── */
   .src {
     font-family: var(--sans);
     font-size: 11px;
     color: #999;
   }
-
-  .spacer { height: 2rem; }
 
   .fade-in {
     opacity: 0;
@@ -664,28 +632,26 @@
 </head>
 <body>
 
-<!-- ═══════ HERO ═══════ -->
 <section class="hero">
   <div class="hero-bg-text">SOVEREIGNTY</div>
   <div class="hero-inner">
     <div class="hero-eyebrow">Popularization of a master thesis</div>
-    <h1>Can you be sovereign on software <em>you don't control?</em></h1>
+    <h1>Can you be sovereign on software <em>you don't run?</em></h1>
     <p class="hero-lede">
       A former air force general wins Bulgaria's election in a landslide. He takes personal control of defence, intelligence, and national security. He has called for restoring ties with Moscow. His military runs on <strong>Microsoft</strong>.
       <br><br>
-      This is a story about who really controls Europe's most critical infrastructure — and why Brussels keeps calling it a supply-chain problem instead of a political one.
+      This is a story about who actually controls Europe's most critical infrastructure and why Brussels keeps calling it a supply-chain problem instead of a political one.
     </p>
   </div>
   <div class="scroll-cue">Scroll</div>
 </section>
 
-<!-- ═══════ THE DEPENDENCY ═══════ -->
 <section>
   <div class="narrow">
     <div class="section-label">I — The dependency</div>
     <h2>Europe outsourced its digital backbone. Now it's trying to figure out who can flip the switch.</h2>
     <p>
-      Over the past two decades, European governments, militaries, and public institutions quietly migrated their most sensitive operations onto infrastructure owned by a handful of American companies. It happened gradually — a cloud contract here, a productivity suite there — and for a long time nobody talked about it as a political problem. It was a procurement decision. Then the world changed.
+      Over the past two decades, European governments, militaries, and public institutions quietly migrated their most sensitive operations onto infrastructure owned by a handful of US companies. It happened gradually: a cloud contract here, a productivity suite there, and for a long time nobody talked about it as a political problem. It was a procurement decision. Then the world changed.
     </p>
   </div>
 
@@ -711,44 +677,33 @@
 
   <div class="narrow">
     <p>
-      These aren't abstract market figures. They describe a power relationship. Under the US CLOUD Act of 2018, American companies are legally required to hand over user data on government request — regardless of where that data is physically stored. If a European defence ministry's logistics system runs on Azure, Washington can compel access to it. Brussels cannot prevent that.
+      These figures describe a power relationship. Under the US CLOUD Act of 2018, American companies are legally required to hand over user data on government request, regardless of where that data is physically stored. If a European defence ministry's logistics system runs on Azure, Washington can compel access to it. Brussels cannot prevent that.
     </p>
 
     <div class="callout">
       <div class="callout-label">Under oath — July 2025</div>
-      Microsoft France's legal director, Anton Carniaux, testified before the French Senate that he <mark>could not guarantee</mark> French government data was safe from silent US access requests — even when stored on servers physically located in the EU.
+      Microsoft France's legal director, Anton Carniaux, testified before the French Senate that he <mark>could not guarantee</mark> French government data was safe from silent US access requests, even when stored on servers physically located in the EU.
       <br><span class="src">Source: IT Daily; Heise Online, 2025</span>
     </div>
 
     <p>
-      It's not just cloud. In payments, Visa and Mastercard process roughly two-thirds of eurozone card transactions. Thirteen of nineteen eurozone countries have no meaningful domestic alternative — meaning over 96% of their card payments flow through American networks.
+      It's not just cloud. In payments, Visa and Mastercard process roughly two-thirds of eurozone card transactions. 13 of 19 eurozone countries have no meaningful domestic alternative, resulting in over 96% of card payments flowing through US networks.
     </p>
     <p class="src">Source: GlobalData Payment Cards Analytics, 2025; ECB data via Euronews, May 2026</p>
   </div>
 
-  <!-- Donut chart -->
   <div class="medium">
     <div style="background:var(--white); border:1px solid var(--border); border-radius:8px; padding:2rem; margin:2rem 0;">
       <div style="font-family:var(--sans); font-size:14px; font-weight:600; margin-bottom:4px;">Who owns Europe's cloud?</div>
       <div style="font-family:var(--sans); font-size:12px; color:var(--muted); margin-bottom:1.5rem;">European cloud infrastructure market share, 2024</div>
       <div class="donut-row">
         <svg viewBox="0 0 200 200" width="180" height="180" style="flex-shrink:0;">
-          <!-- 70% US -->
           <circle cx="100" cy="100" r="80" fill="none" stroke="#2B4C7E" stroke-width="32"
-            stroke-dasharray="351.86 502.65"
-            stroke-dashoffset="0"
-            transform="rotate(-90 100 100)"/>
-          <!-- 15% EU -->
+            stroke-dasharray="351.86 502.65" stroke-dashoffset="0" transform="rotate(-90 100 100)"/>
           <circle cx="100" cy="100" r="80" fill="none" stroke="#6B8E50" stroke-width="32"
-            stroke-dasharray="75.4 502.65"
-            stroke-dashoffset="-351.86"
-            transform="rotate(-90 100 100)"/>
-          <!-- 15% Other -->
+            stroke-dasharray="75.4 502.65" stroke-dashoffset="-351.86" transform="rotate(-90 100 100)"/>
           <circle cx="100" cy="100" r="80" fill="none" stroke="#C4C4BC" stroke-width="32"
-            stroke-dasharray="75.4 502.65"
-            stroke-dashoffset="-427.26"
-            transform="rotate(-90 100 100)"/>
-          <!-- center -->
+            stroke-dasharray="75.4 502.65" stroke-dashoffset="-427.26" transform="rotate(-90 100 100)"/>
           <circle cx="100" cy="100" r="60" fill="var(--white)"/>
           <text x="100" y="95" text-anchor="middle" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#2B4C7E">70%</text>
           <text x="100" y="114" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#6E6E68">US firms</text>
@@ -764,7 +719,6 @@
   </div>
 </section>
 
-<!-- ═══════ PULLQUOTE ═══════ -->
 <section class="pullquote-section">
   <blockquote>
     "We cannot take the risk of having our scientific exchanges, our sensitive data, our strategic innovations exposed to non-European actors."
@@ -772,13 +726,12 @@
   <cite>David Amiel, French Minister for the Civil Service, January 2026</cite>
 </section>
 
-<!-- ═══════ SPLIT: AUSTRIA vs BULGARIA ═══════ -->
 <section class="split-section">
   <div class="medium" style="text-align:center; margin-bottom:1rem;">
     <div class="section-label">II — Two countries, two logics</div>
     <h2>Same dependency. Opposite conclusions.</h2>
     <p style="max-width:560px; margin:0 auto; font-size:17px; color:#555;">
-      What a government does about digital dependency depends on who it sees as the threat. These two cases sit at opposite ends of the spectrum — and both are right, on their own terms.
+      What a government does about digital dependency depends on who it sees as the threat. These two cases sit at opposite ends of the spectrum.
     </p>
   </div>
 
@@ -790,17 +743,17 @@
       <div class="panel-country at">Austria</div>
       <div class="panel-h">Decoupling by design</div>
       <p>
-        Constitutionally neutral. Outside NATO, but embedded in EU defence cooperation. Its threat perception doesn't centre on Russia the way Eastern flank states' does — and the case for US dependency as a security asset is correspondingly weaker.
+        Constitutionally neutral. Outside NATO, but embedded in EU defence cooperation. Its threat perception doesn't centre on Russia the way Eastern flank states' does. A case for US dependency as a security asset is correspondingly weaker.
       </p>
       <div class="panel-highlight at">
         <div class="ph-num">16,000</div>
-        <div class="ph-text">military workstations migrated from Microsoft Office to LibreOffice by end of 2025 — one of Europe's largest open-source deployments</div>
+        <div class="ph-text">military workstations migrated from Microsoft Office to LibreOffice by end of 2025, one of Europe's largest open-source deployments</div>
       </div>
       <p class="panel-quote">
         "We are not doing this to save money. We are doing this so that the Armed Forces — an organisation which is there to function when everything else is down — can continue to have products that work within our sphere of influence."
       </p>
       <p style="font-size:14px;">
-        The military contributed over five person-years of code back to the LibreOffice project. It runs its own Linux and Samba infrastructure — never having used Microsoft's cloud or email services in the first place.
+        The military contributed over five person-years of code back to the LibreOffice project. It runs its own Linux and Samba infrastructure, never having used Microsoft's cloud or email services in the first place.
       </p>
       <p class="panel-src">Sources: Heise Online, Sep 2025; Janes Defence, Oct 2025; TDF Blog, Sep 2025</p>
     </div>
@@ -812,7 +765,7 @@
       <div class="panel-country bg">Bulgaria</div>
       <div class="panel-h">When alignment becomes the vulnerability</div>
       <p>
-        NATO member state on Europe's eastern flank. Documented target of Russian hybrid operations — cyberattacks, disinformation, alleged intelligence-linked assassination attempts. For years, reliance on US cloud providers was treated not as dependency but as strategic alignment.
+        NATO member state on Europe's eastern flank. Documented target of Russian hybrid operations: cyberattacks, disinformation, alleged intelligence-linked assassination attempts. For years, reliance on US cloud providers was treated not as dependency but as strategic alignment.
       </p>
       <div class="panel-highlight bg">
         <div class="ph-num">44.7%</div>
@@ -830,18 +783,17 @@
 
   <div class="split-thesis">
     <p>
-      National security logics are not fixed constants. They are sites of political contestation — and what looks like a stable foundation for infrastructure policy can be reorganised in a single election.
+      National security logics are not fixed constants. They are sites of political contestation and what looks like a stable foundation for infrastructure policy can be reorganised in a single election.
     </p>
   </div>
 </section>
 
-<!-- ═══════ TIMELINE ═══════ -->
 <section class="tl-section">
   <div class="narrow">
     <div class="section-label">III — What Brussels says (and doesn't)</div>
     <h2>Five years of sovereignty talk. Where are we?</h2>
     <p>
-      The EU's response has accelerated — but watch the language. "Sovereignty" is avoided precisely where it would name an adversary. The Commission prefers "de-risking" and "diversification": terms that frame digital dependency as a supply-chain management problem, not a political control problem.
+      The EU's response has accelerated but watch the language. "Sovereignty" is avoided precisely where it would name an adversary. The Commission prefers "de-risking" and "diversification": terms that frame digital dependency as a supply-chain management problem, not a political control problem.
     </p>
   </div>
 
@@ -853,7 +805,7 @@
       <div class="tl-year">2019–2020</div>
       <span class="tl-tag rhetoric">Rhetoric</span>
       <div class="tl-title">GAIA-X: the "Airbus of the cloud"</div>
-      <div class="tl-body">Franco-German initiative to build a European cloud ecosystem. Ambitious pitch — but it welcomed the very hyperscalers it was supposed to counter as members. By 2024, Nextcloud's CEO called it a "paper monster." Forrester concluded it had "failed to launch meaningful services."</div>
+      <div class="tl-body">Franco-German initiative to build a European cloud ecosystem. Ambitious pitch but it welcomed the very hyperscalers it was supposed to counter as members. By 2024, Nextcloud's CEO called it a "paper monster." Forrester concluded it had "failed to launch meaningful services."</div>
       <div class="tl-src">Forrester Research; EuroStack Directory; InfoWorld</div>
     </div>
 
@@ -862,7 +814,7 @@
       <div class="tl-year">2024</div>
       <span class="tl-tag blocked">Blocked</span>
       <div class="tl-title">EUCS sovereignty requirement stripped</div>
-      <div class="tl-body">Seven Member States (Denmark, Estonia, Greece, Ireland, Netherlands, Poland, Sweden) co-signed a non-paper opposing sovereignty requirements in EU cloud certification. Their argument: excluding US hyperscalers would <em>weaken</em> European security. The Belgian presidency compromise removed the requirement.</div>
+      <div class="tl-body">Seven Member States (Denmark, Estonia, Greece, Ireland, Netherlands, Poland, Sweden) co-signed a non-paper opposing sovereignty requirements in EU cloud certification. Their argument: excluding US hyperscalers would weaken European security. The Belgian presidency compromise removed the requirement.</div>
       <div class="tl-src">EUISS, Nov 2025; ENISA; European DIGITAL SME Alliance</div>
     </div>
 
@@ -871,7 +823,7 @@
       <div class="tl-year">December 2025</div>
       <span class="tl-tag rhetoric">Rhetoric</span>
       <div class="tl-title">Joint Communication on Economic Security</div>
-      <div class="tl-body">The Commission's most comprehensive statement on digital dependency. Uses "de-risking" and "diversification" throughout — carefully avoids "sovereignty." This thesis argues the choice is a political act: "diversification" implies a market governance problem; "sovereignty" implies a political control problem that names an adversary.</div>
+      <div class="tl-body">The Commission's most comprehensive statement on digital dependency. Uses "de-risking" and "diversification" throughout and carefully avoids "sovereignty." This thesis argues the choice is a political act: "diversification" implies a market governance problem; "sovereignty" implies a political control problem that names an adversary.</div>
       <div class="tl-src">JOIN(2025) 977 final</div>
     </div>
 
@@ -880,7 +832,7 @@
       <div class="tl-year">January 2026</div>
       <span class="tl-tag action">Action</span>
       <div class="tl-title">Parliament votes, France acts</div>
-      <div class="tl-body">Cross-party majority (EPP, S&D, Liberals, Greens) adopts a report calling for reduced US tech reliance. Same week, France announces all government departments will replace Microsoft Teams and Zoom with Visio — a nationally-hosted, open-source platform on SecNumCloud-certified infrastructure — by 2027.</div>
+      <div class="tl-body">Cross-party majority (EPP, S&amp;D, Liberals, Greens) adopts a report calling for reduced US tech reliance. Same week, France announces all government departments will replace Microsoft Teams and Zoom with Visio, a nationally-hosted, open-source platform on SecNumCloud-certified infrastructure, by 2027.</div>
       <div class="tl-src">Heise Online; Euronews; Help Net Security, Jan 2026</div>
     </div>
 
@@ -889,26 +841,25 @@
       <div class="tl-year">June 2026</div>
       <span class="tl-tag action">Action</span>
       <div class="tl-title">European Technological Sovereignty Package</div>
-      <div class="tl-body">The Commission's most ambitious move yet. The Cloud and AI Development Act (CADA) introduces a four-tier sovereignty assurance framework for cloud services. Accompanied by the Chips Act 2.0 and a new EU Open Source Strategy. For the first time, the Commission puts "sovereignty" in the title.</div>
+      <div class="tl-body">The Commission's most ambitious move yet. The Cloud and AI Development Act (CADA) introduces a four-tier sovereignty assurance framework for cloud services. Accompanied by the Chips Act 2.0 and a new EU Open-Source Strategy. For the first time, the Commission puts "sovereignty" in the title.</div>
       <div class="tl-src">European Commission, 3 Jun 2026; Digital Watch Observatory; Bird &amp; Bird</div>
     </div>
   </div>
 
   <div class="narrow" style="margin-top:2.5rem;">
     <p>
-      Notice the pattern. The Member States most exposed to Russian hybrid threats are the ones most resistant to excluding US providers. The fragmentation is not a failure of coordination. It reflects genuinely incompatible threat perceptions within the Union — and that is the thesis's central finding.
+      Notice the pattern. The Member States most exposed to Russian hybrid threats are the ones most resistant to excluding US providers. The fragmentation is not a failure of coordination. It reflects genuinely incompatible threat perceptions within the Union and that is the thesis's central finding.
     </p>
   </div>
 </section>
 
-<!-- ═══════ CLOSING ═══════ -->
 <section class="closing">
   <div class="closing-grid">
     <div>
       <div class="section-label">IV — The argument</div>
       <h2>Sovereignty cannot be installed like software</h2>
       <p>
-        The EU's current approach — certifying cloud providers, encouraging diversification, nudging procurement rules — manages risk without confronting the underlying power asymmetry. It accommodates rather than disrupts.
+        The EU's current approach of certifying cloud providers, encouraging diversification, and nudging procurement rules manages risk without confronting the underlying power asymmetry. It accommodates rather than disrupts.
       </p>
       <p>
         Austria shows that decoupling is possible, within limits. A neutral state with institutional capacity and political will can migrate its military off Microsoft and run its own infrastructure. But it replaced an office suite, not the entire technology stack. The structural conditions of global digital capitalism constrain how far any single state can go.
@@ -920,7 +871,7 @@
         If the argument for dependency rests on alliance, what happens when the alliance becomes contested?
       </p>
       <p style="font-style:italic; color:#444; margin-top:2rem;">
-        EU digital sovereignty is not a uniform project. It is mediated by differing national contexts, competing threat perceptions, and structural conditions that no single policy instrument can resolve. The fragmentation across Member States is not an obstacle to sovereignty — it is what sovereignty, in the EU's political reality, actually looks like.
+        EU digital sovereignty is not a uniform project. It is mediated by differing national contexts, competing threat perceptions, and structural conditions that no single policy instrument can resolve. The fragmentation across Member States is not an obstacle to sovereignty. It is what sovereignty, in the EU's political reality, actually looks like.
       </p>
     </div>
 
@@ -933,7 +884,7 @@
         <li><span class="cs-label">Bulgaria election:</span> Al Jazeera; ECFR; Novinite; Sofia Globe, Apr–May 2026</li>
         <li><span class="cs-label">CLOUD Act testimony:</span> IT Daily; Heise Online, Jul 2025</li>
         <li><span class="cs-label">France/Visio:</span> Euronews; Help Net Security, Jan 2026</li>
-        <li><span class="cs-label">CADA/Tech Package:</span> European Commission; Digital Watch; Bird & Bird, Jun 2026</li>
+        <li><span class="cs-label">CADA/Tech Package:</span> European Commission; Digital Watch; Bird &amp; Bird, Jun 2026</li>
         <li><span class="cs-label">Payments:</span> GlobalData; Euronews; ECB data, 2025–2026</li>
         <li><span class="cs-label">EUCS debate:</span> EUISS; ENISA; DIGITAL SME Alliance, 2024–2025</li>
       </ul>
@@ -941,7 +892,6 @@
   </div>
 </section>
 
-<!-- ═══════ FOOTER ═══════ -->
 <footer>
   <div class="footer-inner">
     <div class="footer-title">Popularization of a Master Thesis</div>
@@ -949,11 +899,7 @@
       <em>Strategic Dependency and the Limits of EU Digital Sovereignty:<br>
       A Historical-Materialist Policy Analysis of Security-Critical Infrastructures</em>
       <br><br>
-      <strong>Yana Zhelyazkova</strong> · 2026<br>
-      PD Dr. Stefan Mayr, LL.M. (CEU)
-    </div>
-    <div class="footer-note">
-      All statistics cited in text. This website is a popularization of an academic thesis and does not represent official positions of any institution.
+      <strong>Yana Zhelyazkova</strong> · 2026
     </div>
   </div>
 </footer>
